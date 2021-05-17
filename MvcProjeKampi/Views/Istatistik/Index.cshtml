@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h1 class="text-bold text-center">İSTATİSTİKLER</h1>
+<br />
+<br />
+
+
+
+
+<div class="row">
+    <div class="card  text-white  bg-blue  col-md-4">
+
+
+        <h3 class=" text-center">
+            Toplam Kategori Sayısı
+            <br />
+            <h1 class="text-center">@ViewBag.q1</h1>
+        </h3>
+
+
+
+    </div>
+
+    <div class="card  text-white  bg-red  col-md-4">
+
+
+        <h3 class=" text-center">
+            Yazılım Kategorisine Ait Başlık Sayısı
+            <br />
+            <h1 class="text-center">@ViewBag.q2</h1>
+        </h3>
+
+
+
+    </div>
+    <div class="card  text-white  bg-green  col-md-4">
+
+
+        <h3 class=" text-center">
+            Yazar Adında "a" Harfi Geçen Yazar Sayısı
+            <br />
+            <h1 class="text-center">@ViewBag.q3</h1>
+        </h3>
+
+
+
+    </div>
+
+    <div class="card  text-white  bg-yellow  col-md-4">
+
+
+        <h3 class=" text-center">
+            En Fazla Başlığa Sahip Kategori Adı
+            <br />
+            <h1 class="text-center">@ViewBag.q4</h1>
+        </h3>
+
+
+
+    </div>
+
+    <div class="card  text-white  bg-purple  col-md-4">
+
+
+        <h3 class=" text-center">
+            True ile False Olan Kategorilerin Farkının Sayısı
+            <br />
+            <h1 class="text-center">@ViewBag.q5</h1>
+        </h3>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
